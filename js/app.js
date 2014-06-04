@@ -8,10 +8,10 @@ $(document).ready(function() {
 	})
 
 	$(".add").mouseenter(function() {
-		$('textarea').css("display", "block");
+		$('textarea').show();
 		$('textarea').focus();
 	})
 	.mouseleave(function() {
-		$('textarea').css("display", "none");
+		$('textarea').hide();
 	})
 })
