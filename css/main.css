@@ -1,0 +1,46 @@
+body{
+  background:#27ffac;
+  font-family: sans-serif;
+}
+
+section{
+  display:block;
+  width:500px;
+}
+section ul{
+  list-style:none;
+  font-size:50px;
+  letter-spacing:-3px;
+  font-weight:bold;
+}
+
+li.done{
+  text-decoration:line-through;
+  color:rgba(0,0,0,.6);
+}
+
+section:before{
+  float:right;
+  position:relative;
+  display:block;
+  bottom:135px;
+  content:"}";
+  font-size:350px;
+  font-family: 'Open Sans', sans-serif;
+  color:rgba(0,0,0,.6);
+}
+
+p{
+  color:rgba(255,255,255,.5);
+  color:rgba(0,0,0,.6);
+  position:absolute;
+  width:100%;
+  bottom:10em;
+  font-weight:300;
+  text-align:center;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+}
