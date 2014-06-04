@@ -3,23 +3,25 @@ body{
   font-family: sans-serif;
 }
 
-section{
+.tasks{
   display:block;
   width:500px;
 }
-section ul{
+.tasks ul{
   list-style:none;
   font-size:50px;
   letter-spacing:-3px;
   font-weight:bold;
 }
 
+
+
 li.done{
   text-decoration:line-through;
   color:rgba(0,0,0,.6);
 }
 
-section:before{
+.tasks:before{
   float:right;
   position:relative;
   display:block;
@@ -43,4 +45,8 @@ p{
 a{
   text-decoration:none;
   color:#fff;
+}
+
+textarea {
+  display: none;
 }

@@ -5,6 +5,13 @@ $(document).ready(function() {
 
 	$(".add").click(function() {
 		$("ul:first-child").prepend("<li>Test</li>");
-		// $('.list').css("background", "black");
+	})
+
+	$(".add").mouseenter(function() {
+		$('textarea').css("display", "block");
+		$('textarea').focus();
+	})
+	.mouseleave(function() {
+		$('textarea').css("display", "none");
 	})
 })
