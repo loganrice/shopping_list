@@ -3,6 +3,11 @@ $(document).ready(function() {
 		$(this).toggleClass("done");
 	})
 
+	$(".tasks").mouseleave(function() {
+		$('textarea').val('');
+		$('textarea').hide();
+	})
+
 	$(".addItem").mouseenter(function() {
 		$('textarea').show();
 		$('textarea').focus();
