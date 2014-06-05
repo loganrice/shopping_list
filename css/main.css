@@ -6,6 +6,10 @@ body{
 .tasks{
   display:block;
   width:500px;
+  background-image: url('../img/}.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
 }
 .tasks ul{
   list-style:none;
@@ -18,17 +22,6 @@ body{
 
 li.done{
   text-decoration:line-through;
-  color:rgba(0,0,0,.6);
-}
-
-.tasks:before{
-  float:right;
-  position:relative;
-  display:block;
-  bottom:135px;
-  content:"}";
-  font-size:350px;
-  font-family: 'Open Sans', sans-serif;
   color:rgba(0,0,0,.6);
 }
 
@@ -63,4 +56,8 @@ textarea {
   height: 50px;
   margin-left: 55px;
   background: #fff;
+}
+
+img {
+  opacity: .6;
 }
