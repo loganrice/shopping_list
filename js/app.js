@@ -21,7 +21,7 @@ $(document).ready(function() {
 		}
 	})
 
-	$("li").on("dblclick", function() {
+	$(".tasks").on("dblclick", "li", function() {
 		$(this).fadeOut('fast');
 	})
 
