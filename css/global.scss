@@ -6,16 +6,20 @@ body{
 .tasks{
   display:block;
   width:500px;
-  background-image: url('../img/}.svg');
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain;
-}
-.tasks ul{
+  ul {
   list-style:none;
   font-size:50px;
   letter-spacing:-3px;
   font-weight:bold;
+  }
+}
+
+.projects {
+  @extend .tasks;
+  background-image: url('../img/}.svg');
 }
 
 
