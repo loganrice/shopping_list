@@ -6,9 +6,6 @@ body{
 .tasks{
   display:block;
   width:500px;
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
   ul {
   list-style:none;
   font-size:50px;
@@ -19,7 +16,15 @@ body{
 
 .projects {
   @extend .tasks;
-  background-image: url('../img/}.svg');
+  background-image: url('../../img/}.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  color:rgba(0,0,0,.6);
+}
+
+.active {
+  color: black;
 }
 
 
