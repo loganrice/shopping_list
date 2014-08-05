@@ -9,11 +9,13 @@ module.exports = function(grunt) {
         dest: 'js/build/global.min.js' // output
       }
     },
-    // watch: {
-    //   index: {
-    //     files: ['index.html']
-    //   }
-    // },
+    watch: {
+      options: { livereload: true },
+      sass: {
+        files: ['./css/**/*.scss', './css/*.scss'],
+        tasks: ['sass']
+      }
+    },
     sass: {
       dist: {                            
         options: {                       
