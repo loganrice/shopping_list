@@ -29,4 +29,9 @@ $(document).ready(function() {
 		$('textarea').show();
 		$('textarea').focus();
 	})
+
+	$(".projects .list").on("click", "li", function() {
+		$( "li" ).removeClass( "active" );
+		$(this).toggleClass("active");
+	})
 })
